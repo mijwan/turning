@@ -1,0 +1,30 @@
+.our-client{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;   
+}
+.client p{
+    color: #ccc;
+    text-transform: capitalize;
+}
+.main-client{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.more{
+    color: #ccc;
+    text-transform: capitalize;
+}
+@media screen and (max-width: 600px) {
+    .our-client{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .our-client img{
+        padding-bottom: 10px;
+    }
+    .client p{
+        text-align: center;
+    }
+}
